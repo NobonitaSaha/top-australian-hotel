@@ -1,0 +1,874 @@
+
+@media only screen and (max-width: 575px) and (min-width: 320px) { 
+    .section-container{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px 15px;
+    }
+
+    
+    /* -------------------
+        Menu Start
+    ----------------------- */
+    .menu-logo > small {
+        font-size: 22px;
+    }
+
+    .button-86 {
+        width: 85px;
+        font-size: 15px;
+        padding: 8px 16px;
+    }
+
+    .button-86::after {
+        transform: translate(6px, 5px);
+        width: 25px;
+        height: 25px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0px;
+        align-items: center;
+    }
+
+    .button-86:hover::before {
+        transform: translate(5%, 20%);
+        width: 110%;
+        height: 95%;
+    }
+    /* -------------------
+        Menu End
+    ---------------------- */
+
+
+
+    /* --------------------
+        Home Start
+    ------------------------ */
+    .home-bg {
+        width: 100%;
+        margin: 0px 0px 80px 0px;
+        height: 610px;
+    }
+
+    .banner-description {
+        margin: 0px 9px;
+        width: 95%;
+        transform: translateY(175px);
+        padding: 40px 10px 50px 10px;
+        background-color: #596e79db;
+    }
+
+    .banner-description > h1 {
+        font-size: 38px;
+        margin-bottom: 20px;
+        line-height: 55px;
+        letter-spacing: 0.4px;
+    }
+
+    .square-box {
+        padding: 40px;
+        width: 67px;
+        margin-top: -152px;
+        left: -8px;
+    }
+    
+    .square-box-right{
+        display: none;
+    }
+    /* ------------------
+        Home End
+    --------------------- */
+
+
+
+    /* ------------------ 
+        Book Start
+    -------------------- */
+	.grid {
+		grid-template-columns: repeat(1, 1fr);
+        gap: 0px
+	}
+	
+	form#myForm {
+		width: 100%;
+	}
+
+	.book .input {
+        padding: 30px 15px 30px 15px;
+        border-radius: 6px;
+    }
+
+    .box {
+        border-right: none;
+        padding-right: 0px;
+        padding-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 25px;
+    }
+
+	.book {
+        height: auto;
+        width: 100%;
+        padding: 80px 0px 40px 0px;
+    }
+
+	.book .search {
+		width: 100%;
+		padding: 0px;
+	}
+
+	.book .search input {
+		margin-top: 0;
+	}
+	
+	.book .search {
+        margin: 10px 0px 0px 0px;
+        border-radius: 6px;
+    }
+	
+	.book .search input {
+		font-size: 15px !important;
+		margin-top: 0px !important;
+	}
+
+    input {
+        padding: 12px;
+        margin-top: 8px !important;
+        border-radius: 6px;
+    }
+    /* ----------------
+        Book End
+    ------------------- */
+
+
+
+    /* ----------------
+        Service Start
+    -------------------- */
+    .service-section .section-description {
+        width: 100%;
+    }
+
+    .service-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 60px;
+        gap: 20px;
+    }
+
+    .service-section .section-description::before {
+        left: 10px;
+        width: 115px !important;
+        margin-top: -18px;
+    }
+
+    .service-section .section-description > h2 {
+        font-family: "Lato", sans-serif;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 44px;
+        font-style: normal;
+        margin-left: 0px;
+        color: #202020;
+    }
+
+    
+    /* ---------------------
+        Service End
+    ------------------------- */
+
+
+
+    /* ----------------------
+        About Start
+    ------------------------ */
+    .about-content {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .about-img > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-heading {
+        font-size: 32px;
+        line-height: 44px;
+        margin: 10px 0px;
+        width: 100%;
+    }
+
+    .count-content {
+        display: inline-flex;
+        margin-top: 20px;
+        gap: 40px;
+        flex-direction: row;
+    }
+
+    .count-description > h3 {
+        font-size: 45px;
+    }
+
+    .about-section {
+        padding: 10px 0px 60px 0px;
+    }
+
+    .count-description > small {
+        font-size: 14px;
+    }
+    /* ----------------------
+        About End
+    ------------------------ */
+
+
+
+    /* ----------------------
+        Experience Start
+    ------------------------- */.experience-section {
+        padding: 0px 0px 40px 0px;
+    }
+
+    .experience-content {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    .experience-img img {
+        width: 100%;
+    }
+    /* ------------------------
+        Experience End
+    -------------------------- */
+
+
+
+    /* ----------------------
+        Testimonial Start
+    ------------------------- */
+    .testimonial-section {
+        padding: 40px 0px;
+    }
+
+    .slider-wrapper {
+        margin-top: 20px;
+    }
+
+    .testimonial-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .owl-buttons {
+        position: absolute;
+        top: 390px;
+        right: 0%;
+        left: 0%;
+        text-align: center;
+    }
+
+    .silder-text > h3 {
+        font-size: 20px;
+    }
+    /* -----------------------
+        Testimonial End
+    -------------------------- */
+
+
+    /* --------------------
+        Subscribe Start 
+    ------------------------ */
+    .subscribe-section {
+        padding-top: 90px;
+    }
+
+    .subscribe-content > h2 {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .subscribe-content > p {
+        width: 100%;
+    }
+
+    .newsletter {
+        align-items: center;
+        margin: 55px auto 0px;
+        width: 100%;
+    }
+
+    .newsletter > button {
+        padding: 13px 34px;
+        margin-left: -54px;
+        left: 80%;
+        top: -80px;
+    }
+
+    .message-content {
+        max-width: 345px;
+        padding: 20px 30px;
+        margin: 15px 0px 0px 0px;
+    }
+
+    .close {
+        margin-left: 272px;
+        font-size: 45px;
+    }
+    /* --------------------
+        Subscribe End
+    ------------------------ */
+
+
+
+    /* --------------------
+        Footer Start
+    ----------------------- */
+    .footer {
+        padding: 60px 0px 30px 0px;
+    }
+
+    .newsletter {
+        margin: 45px auto 0px;
+    }
+
+    button.footer-btn {
+        font-size: 16px;
+        padding: 0px 6px;
+        word-spacing: 0px;
+        letter-spacing: 0.2px;
+    }
+    /* ----------------------
+        Footer End
+    ------------------------- */
+}
+
+
+
+@media only screen and (max-width: 375px) and (min-width: 320px) { 
+	/* --------------------
+        Testimonial Start
+    ------------------------ */
+    .owl-buttons {
+        position: absolute;
+        top: 410px;
+        right: 0%;
+        left: 0%;
+        text-align: center;
+    }
+    /* --------------------
+        Testimonial End
+    ------------------------ */
+
+
+
+    /* -----------------------
+        Subscribe Start
+    ------------------------ */
+    .newsletter > button {
+        padding: 13px 28px;
+        margin-left: -42px;
+        left: 77%;
+        top: -79px;
+    }
+
+    .subscribe-section {
+        padding-top: 60px;
+    }
+    /* -----------------------
+        Subscribe End
+    ------------------------ */
+}
+
+
+
+@media only screen and (max-width: 868px) and (min-width: 576px) {
+    .section-container{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px 15px;
+    }
+
+    
+    /* -------------------
+        Menu Start
+    ----------------------- */
+    .menu-logo > small {
+        font-size: 22px;
+    }
+
+    .button-86 {
+        width: 85px;
+        font-size: 15px;
+        padding: 8px 16px;
+    }
+
+    .button-86::after {
+        transform: translate(6px, 5px);
+        width: 25px;
+        height: 25px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0px;
+        align-items: center;
+    }
+
+    .button-86:hover::before {
+        transform: translate(5%, 20%);
+        width: 110%;
+        height: 95%;
+    }
+    /* -------------------
+        Menu End
+    ---------------------- */
+
+
+
+    /* --------------------
+        Home Start
+    ------------------------ */
+    .home-bg {
+        width: 100%;
+        margin: 0px 0px 80px 0px;
+        height: 610px;
+    }
+
+    .banner-description {
+        margin: 0px;
+        width: 70%;
+        transform: translateY(265px);
+        padding: 40px 20px 50px 20px;
+        background-color: #596e79db;
+        height: 345px;
+    }
+
+    .banner-description > h1 {
+        font-size: 38px;
+        margin-bottom: 20px;
+        line-height: 55px;
+        letter-spacing: 0.4px;
+    }
+
+    .square-box {
+        padding: 40px;
+        width: 67px;
+        margin-top: -152px;
+        left: -8px;
+    }
+    
+    .square-box-right {
+        padding: 12px 28px;
+        width: 88px;
+        margin-top: -75px;
+        margin-right: 0px;
+    }
+    /* ------------------
+        Home End
+    --------------------- */
+
+
+
+    /* ------------------ 
+        Book Start
+    -------------------- */
+	.grid {
+		grid-template-columns: repeat(1, 1fr);
+        gap: 0px
+	}
+	
+	form#myForm {
+		width: 100%;
+	}
+
+	.book .input {
+        padding: 30px 15px 30px 15px;
+        border-radius: 6px;
+    }
+
+    .box {
+        border-right: none;
+        padding-right: 0px;
+        padding-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 25px;
+    }
+
+	.book {
+        height: auto;
+        width: 100%;
+        padding: 80px 0px 40px 0px;
+    }
+
+	.book .search {
+		width: 100%;
+		padding: 0px;
+	}
+
+	.book .search input {
+		margin-top: 0;
+	}
+	
+	.book .search {
+        margin: 10px 0px 0px 0px;
+        border-radius: 6px;
+    }
+	
+	.book .search input {
+		font-size: 15px !important;
+		margin-top: 0px !important;
+	}
+
+    input {
+        padding: 12px;
+        margin-top: 8px !important;
+        border-radius: 6px;
+    }
+    /* ----------------
+        Book End
+    ------------------- */
+
+
+
+    /* ----------------
+        Service Start
+    -------------------- */
+    .service-section .section-description {
+        width: 100%;
+    }
+
+    .service-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 60px;
+        gap: 20px;
+    }
+
+    .service-section .section-description::before {
+        left: 10px;
+        width: 90px !important;
+        margin-top: 21px;
+    }
+
+    .service-section .section-description > h2 {
+        font-family: "Lato", sans-serif;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 44px;
+        font-style: normal;
+        margin-left: 105px;
+        color: #202020;
+    }
+
+    
+    /* ---------------------
+        Service End
+    ------------------------- */
+
+
+
+    /* ----------------------
+        About Start
+    ------------------------ */
+    .about-content {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .about-img > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-heading {
+        font-size: 32px;
+        line-height: 44px;
+        margin: 10px 0px;
+        width: 100%;
+    }
+
+    .count-content {
+        display: inline-flex;
+        margin-top: 20px;
+        gap: 40px;
+        flex-direction: row;
+    }
+
+    .count-description > h3 {
+        font-size: 55px;
+    }
+
+    .about-section {
+        padding: 10px 0px 60px 0px;
+    }
+
+    .count-description > small {
+        font-size: 14px;
+    }
+    /* ----------------------
+        About End
+    ------------------------ */
+
+
+
+    /* ----------------------
+        Experience Start
+    ------------------------- */.experience-section {
+        padding: 0px 0px 40px 0px;
+    }
+
+    .experience-content {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    .experience-img img {
+        width: 100%;
+    }
+    /* ------------------------
+        Experience End
+    -------------------------- */
+
+
+
+    /* ----------------------
+        Testimonial Start
+    ------------------------- */
+    .testimonial-section {
+        padding: 40px 0px;
+    }
+
+    .slider-wrapper {
+        margin-top: 20px;
+    }
+
+    .testimonial-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .owl-buttons {
+        position: absolute;
+        top: 330px;
+        right: 0%;
+        left: 0%;
+        text-align: center;
+    }
+    /* -----------------------
+        Testimonial End
+    -------------------------- */
+
+
+    /* --------------------
+        Subscribe Start 
+    ------------------------ */
+    .subscribe-section {
+        padding-top: 90px;
+    }
+
+    .subscribe-content > h2 {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .subscribe-content > p {
+        width: 100%;
+    }
+
+    .newsletter {
+        align-items: center;
+        margin: 55px auto 0px;
+        width: 100%;
+    }
+
+    .newsletter > button {
+        padding: 13px 55px;
+        margin-left: -30px;
+        left: 80%;
+        top: -79px;
+    }
+    /* --------------------
+        Subscribe End
+    ------------------------ */
+
+
+
+    /* --------------------
+        Footer Start
+    ----------------------- */
+    .footer {
+        padding: 60px 0px 30px 0px;
+    }
+
+    .newsletter {
+        margin: 45px auto 0px;
+    }
+
+    button.footer-btn {
+        font-size: 16px;
+        padding: 0px 6px;
+        word-spacing: 0px;
+        letter-spacing: 0.2px;
+    }
+    /* ----------------------
+        Footer End
+    ------------------------- */
+}
+
+
+
+@media only screen and (max-width: 1100px) and (min-width: 968px) {
+    .section-container {
+        width: 92%;
+        max-width: 968px;
+        margin: 0 auto;
+    }
+    
+    .section-heading {
+        font-size: 44px;
+    }
+
+
+
+    /* ------------------
+        Home Start
+    -------------------- */
+    .home-bg {
+        width: 93%;
+        margin: 0px 0px 100px 70px;
+    }
+
+    .banner-description {
+        margin-left: -165px;
+        width: 560px;
+        height: 400px;
+        transform: translateY(125px);
+        padding: 60px 40px 60px 70px;
+    }
+
+    .banner-description > h1 {
+        font-size: 52px;
+    }
+
+    .square-box {
+        width: 120px;
+        margin-top: -170px;
+        left: 35px;
+    }
+    /* ------------------
+        Home End
+    --------------------- */
+
+
+
+    /* -----------------
+        Service Start
+    --------------------- */
+    .service-section {
+        padding: 40px 0px;
+    }
+    
+    .service-content {
+        margin-top: 80px;
+        gap: 40px;
+    }
+
+    .service-section .section-description > h2 {
+        font-size: 44px;
+        margin-left: 145px;
+    }
+    /* ---------------------
+        Service End 
+    ----------------------- */
+
+
+
+    /* -------------------
+        About Start
+    -------------------- */
+    .about-section {
+        padding: 50px 0px;
+    }
+
+    .about-img > img {
+        width: 420px;
+        height: auto;
+    }
+
+    .about-content {
+        gap: 40px;
+    }
+
+    .count-description > h3 {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+
+    .about-btn {
+        margin-top: 30px;
+    }
+
+    .about-description > p {
+        margin: 12px 0px;
+    }
+    /* -----------------
+        About End
+    ------------------- */
+
+
+
+    /* -----------------------
+        Experience Start
+    ------------------------- */
+    .experience-section {
+        padding: 40px 0px;
+    }
+    
+    .experience-img img {
+        border-radius: 6px;
+        height: auto;
+        width: 420px;
+        margin-top: 100px;
+    }
+
+    .experience-content {
+        gap: 40px;
+    }
+    /* ----------------------
+        Experience End
+    ------------------------ */
+
+
+
+    /* ---------------------
+        Testimonial Start
+    ------------------------ */
+    .testimonial-section {
+        padding: 40px 0px;
+    }
+    /* -----------------------
+        Testimonial End
+    -------------------------- */
+
+    .book .search {
+        margin: 0px -30px 0px 30px;
+    }
+}

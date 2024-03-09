@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Enjoy The Best Australia's Hotels. Discover unparalleled luxury in Australia's finest hotels, where exquisite accommodations and world-class amenities await, ensuring an unforgettable stay in the heart of Down Under.">
+		<meta name="keywords" content="Best Australia hotels, Top Australia resorts, Australia hotel booking, Best Resorts, Australia Hotels">
+        
+        
+        <!-- ========== Title ========= -->
+		<title>Top Australian Hotel</title>
+		
+		
+		<!-- ============ Custom Link ========= -->
+        
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.min.css">
+		<link rel="stylesheet" href="css/owl.transitions.css">
+        <link rel="stylesheet" href="css/animate.css">
+
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css">		
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	  
+	  
+        <!-- ========= Google Fonts ========== -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+        <!-- ============ Icon Link ========= -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    </head>
+
+    <main>
+        <!-- =============== Menu Section Start ============== -->
+        <section id="menu">
+            <div class="section-container">
+                <div class="menu">
+                    <div class="menu-logo">
+                        <small>Australia's <span>Hotel</span></small>
+                    </div>
+    
+                    <div>
+                        <button class="button-86" role="button"  onclick="smoothScroll('book')">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =============== Menu Section End ================ -->
+
+
+
+        <!-- =============== Home Section Start =================== -->
+        <section id="home" class="home-section">
+            <div class="section-container">
+                <div class="home-bg">
+                    <div class="banner-description">
+                        <h1>Enjoy The Best Australia's Hotels</h1>
+                        <p>Discover unparalleled luxury in Australia's finest hotels, where exquisite accommodations and world-class amenities await, ensuring an unforgettable stay in the heart of Down Under.</p>
+                    </div>
+                </div>
+                <div class="square-box"></div>
+                <a href="#service">
+                    <div class="square-box-right">
+                        <img src="images/down-arrow.png" class="down-arrow">
+                    </div>
+                </a>
+            </div>
+        </section>
+        <!-- =============== Home Section End ===================== -->
+
+
+
+        <!-- ================ Book Section Start =============== -->
+        <section class="book" id="book">
+            <div class="section-container flex wow zoomIn" data-show="true" style="animation-name: zoomIn; animation-duration: 2500ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                <form id="myForm">
+                    
+                    <div class="input grid">
+                        <div class="box">
+                            <label>Check-in:</label>
+                            <input type="date">
+                        </div>
+                        
+                        <div class="box">
+                            <label>Check-out:</label>
+                            <input type="date">
+                        </div>
+                        
+                        <div class="box">
+                            <label>Adults:</label> <br>
+                            <input type="number" placeholder="0">
+                        </div>
+                        
+                        <div class="box box-border">
+                            <label>Email:</label> <br>
+                            <input type="email" placeholder="Your Email">
+                        </div>
+                        
+                        
+                        <div class="search">
+                            <input type="submit" value="SUBMIT" onclick="showConfirmation()">
+                        </div>
+                    </div>
+                    
+                </form>	
+            </div>
+        </section>
+        
+        <!-- ========== Submit Popup ============= -->
+        <div id="confirmationPopup" class="popup">
+            <div class="popup-content">
+                <span class="popup-close" onclick="closePopup()">&times;</span>
+                <p>Form submitted successfully!</p>
+            </div>
+        </div>
+        <!-- ============== Book Section End ================ -->
+
+
+
+        <!-- ============== Service Section Start ============= -->
+        <section id="service" class="service-section">
+            <div class="section-container wow zoomIn" data-show="true" style="animation-name: zoomIn; animation-duration: 2500ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                <div class="section-description">
+                    <h2>Benefits you get when using our services</h2>
+                </div>
+
+                <div class="service-content">
+                    <!-- === Card-01 === -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="images/lock.png" alt="lock photo">
+                        </div>
+    
+                        <div class="service-text">
+                            <h3>Safe & Secure</h3>
+                            <p>Advanced encryption secures the hotel, preventing unauthorized access effectively.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- === Card-02 === -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="images/wifi.png" alt="wifi photo">
+                        </div>
+    
+                        <div class="service-text">
+                            <h3>Free Internet</h3>
+                            <p>Free internet access makes it easier for guests to take the advantage hotel's digital services.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- === Card-03 === -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="images/service.png" alt="service photo">
+                        </div>
+    
+                        <div class="service-text">
+                            <h3>24/7 Services</h3>
+                            <p>Our 24/7 room service, aims to elevate your stay to new heights of luxury and convenience. </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- ============== Service Section End ============== -->
+
+
+
+        <!-- ============== About Section Start ============== -->
+        <section id="about" class="about-section wow zoomIn" data-show="true" style="animation-name: zoomIn; animation-duration: 2500ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+            <div class="section-container">
+                <div class="about-content">
+                    <div class="about-img">
+                        <img src="images/about.png" alt="">
+                    </div>
+
+                    <div class="about-description">
+                        <h2 class="section-heading">Explore the top hotels in Australia</h2>
+                        <p>Discover a world of unparalleled luxury and wellness, where every moment is a celebration of opulence and refinement. Elevate your fitness journey to new heights amidst the unparalleled beauty of Australia, and embark on a transformative experience that transcends the ordinary. </p>
+                        
+                        <div id="counter" class="count-content">
+                            <div class="item count-description">
+                               <h3 class="count" data-number="21" ></h3>
+                               <small class="text">Years <br> experience</small>
+                            </div>
+                            
+                            <div class="item count-description">
+                                <h3 class="count" data-number="117" ></h3>
+                                <small class="text">Satisfied <br> clients</small>
+                            </div>
+                            
+                            <div class="item count-description">
+                                <h3 class="count" data-number="59" ></h3>
+                                <small class="text">Comfortable <br> suites</small>
+                            </div>
+                              
+                        </div>
+
+                        <div class="about-btn">
+                            <button class="button-86" role="button"  onclick="smoothScroll('menu')">More Info</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============== About Section End ================ -->
+
+
+
+        <!-- ============= Experience Section Start ============== -->
+        <section id="experience" class="experience-section">
+            <div class="section-container wow zoomIn" data-show="true" style="animation-name: zoomIn; animation-duration: 2500ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                <div class="experience-content">
+                    <div>
+                        <h2 class="section-heading">We provide you the top-notch amenities</h2>
+
+                        <div class='wrapper'>
+                            <div class='steps' id='steps'>
+                                <!-- === Step-01 === -->
+                                <div class='step'>
+                                    <div class='number'>01</div>
+                                    <div class='info'>
+                                        <p class='title'>Restaurant & Bar</p>
+                                        <p class='text'>Experience the elegance of fine dining in our stylish restaurant ambiance, perfect for intimate dinners or celebrations with loved ones.</p>
+                                    </div>
+                                </div>
+                                
+                                <!-- === Step-02 === -->
+                                <div class='step'>
+                                    <div class='number'>02</div>
+                                    <div class='info'>
+                                        <p class='title'>Fitness Area</p>
+                                        <p class='text'>Our fitness area is equipped with state-of-the-art cardio machines including treadmills, elliptical trainers, stationary bikes, and rowing machines.</p>
+                                    </div>
+                                </div>
+                                
+                                <!-- === Step-03 === -->
+                                <div class='step'>
+                                    <div class='number'>03</div>
+                                    <div class='info'>
+                                        <p class='title'>Spa & Wellness</p>
+                                        <p class='text'>Our state-of-the-art facilities are designed to cater to your every need, ensuring a truly indulgent experience.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- === Experience Photo -->
+                    <div class="experience-img">
+                        <img src="images/experience.png" alt="experience photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============ Experience Section End ================= -->
+
+
+
+        <!-- ================ Testimonial Section Start ============== -->
+        <section id="testimonial" class="testimonial-section wow zoomIn" data-show="true" style="animation-name: zoomIn; animation-duration: 2500ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+            <div class="section-container">
+                <div class="testimonial-content">
+                    <div>
+                        <h2 class="section-heading">We provide you the top-notch amenities</h2>
+                    </div>
+                    
+                    <div class="slider-btn">
+                        <button class="owl-prev"></button>
+                        <button class="owl-next"></button>
+                    </div>
+                    
+                    
+                </div>
+
+                <div class="slider-wrapper">
+
+                    <div id="news-slider-01" class="slider owl-carousel">
+                        <div class="slider-bg">
+                            <div class="slider-icon">
+                                <img src="images/quote.png" alt="quote photo">
+                            </div>
+    
+                            <div class="silder-text">
+                                <h3>Best hotel in Australia</h3>
+                                <p>The access to other amenities. We’ve had several mini trips away this past 12 months and this was the most comfortable and well thought out location of all places we’ve been to.</p>
+                            </div>
+    
+                            <div class="slider-author">
+                                <div class="author-img">
+                                    <img src="images/client-01.png" alt="">
+                                </div>
+    
+                                <div class="client-name">
+                                    <h4>Katherine</h4>
+                                    <small>Australia</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="slider-bg">
+                            <div class="slider-icon">
+                                <img src="images/quote.png" alt="quote photo">
+                            </div>
+    
+                            <div class="silder-text">
+                                <h3>Perfect holiday destination</h3>
+                                <p>I was pleased to be upgraded as i asked for a secure parking due to car being loaded for relocation. Restaurants and bars and cafes all walking distance. I will stay here again definitely.</p>
+                            </div>
+    
+                            <div class="slider-author">
+                                <div class="author-img">
+                                    <img src="images/client-02.png" alt="">
+                                </div>
+    
+                                <div class="client-name">
+                                    <h4>Thuong</h4>
+                                    <small>United Kingdom</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="slider-bg">
+                            <div class="slider-icon">
+                                <img src="images/quote.png" alt="quote photo">
+                            </div>
+    
+                            <div class="silder-text">
+                                <h3>The ultimate blend of luxury</h3>
+                                <p>Big clean rooms, nice views and handy location. Access to beach, pools and restaurants was fantastic. Highly recommended.</p>
+                            </div>
+    
+                            <div class="slider-author">
+                                <div class="author-img">
+                                    <img src="images/client-03.png" alt="">
+                                </div>
+    
+                                <div class="client-name">
+                                    <h4>Larissa</h4>
+                                    <small>Australia</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <!-- =============== Testimonial Section End ============== -->
+
+
+
+        <!-- =============== Subscribe Letter Start ================== -->
+        <section id="subscribe" class="subscribe-section">
+            <div class="section-container">
+                <div class="subscribe-content  wow zoomIn" data-wow-duration="2.5s">
+                    <h2 class="section-heading">Subscribe to get the latest news about us</h2>
+                    <p>We recommended you to subscribe to our newspaper, enter your email below to get our daily update about us. </p>
+                </div>
+
+                <!-- == Newsletter Form == -->
+                <div class="newsletter">
+                    <input type="text" placeholder="Enter Your Email">
+                    <button id="myButton">Submit</button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- === Subscribe Popup === -->
+        <div class="message" id="message">
+            <div class="message-content">
+              <span class="close" id="close">&times;</span>
+              <p>Thanks for subscribing to our newsletter!</p>
+            </div>
+        </div>
+        <!-- =============== Subscribe Letter End ==================== -->
+
+
+
+        <!-- ========== Footer Section Start ========== -->
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+            
+                    <div class="footer-btn-group">
+                        <button type="button" class="footer-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Terms of Service
+                        </button>
+                        
+                        <button type="button" class="footer-btn" data-bs-toggle="modal" data-bs-target="#myModal">
+                            Privacy Policy
+                        </button>
+                    </div>
+                    
+                    <div class="footer-terms">
+                        <!-- ======== Modal PopUp ======= -->
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+                                
+                                    <!-- === Modal Header == -->
+                                    <div class="modal-header">
+                                        <h2 class="modal-title">Privacy Policy</h2>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    
+                                    
+                                    <!-- === Modal Body === -->
+                                    <div class="modal-body">
+                                    
+                                        <div>
+                                            <h3 class="footer-title">Privacy Policy for lodgereviews88.com</h3>
+                                            <p class="footer-text">
+                                                At lodgereviews88.com, accessible from lodgereviews88.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by lodgereviews88.com and how we use it.
+                                                <br><br>
+                                                If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
+                                            </p>
+                                        </div>
+                                        
+                                        
+                                        <div>
+                                            <h3 class="footer-title">General Data Protection Regulation (GDPR)</h3>
+                                            <p class="footer-text">
+                                                We are a Data Controller of your information.
+                                                <br><br>
+                                                lodgereviews88.com legal basis for collecting and using the personal information described in this Privacy Policy depends on the Personal Information we collect and the specific context in which we collect the information:
+                                            </p>
+                                            
+                                            <ul class="list-icon">
+                                            
+                                                <li>
+                                                    <span class="icon background-transparent">
+                                                    <i class="fa-solid fa-check"></i>
+                                                    </span> lodgereviews88.com needs to perform a contract with you
+                                                </li>
+
+                                                <li>
+                                                    <span class="icon background-transparent">
+                                                    <i class="fa-solid fa-check"></i>
+                                                    </span> You have given lodgereviews88.com permission to do so
+                                                </li>
+
+                                                <li>
+                                                    <span class="icon background-transparent">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span> Processing your personal information is in lodgereviews88.com legitimate interests
+
+                                                </li>
+
+                                                <li>
+                                                    <span class="icon background-transparent">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span> lodgereviews88.com needs to comply with the law
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                        
+                                        
+                                        <div>
+                                            <p class="footer-text">
+                                                lodgereviews88.com will retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your information to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our policies.
+                                                <br><br>
+                                                If you are a resident of the European Economic Area (EEA), you have certain data protection rights. If you wish to be informed what Personal Information we hold about you and if you want it to be removed from our systems, please contact us.
+                                                <br><br>
+                                                In certain circumstances, you have the following data protection rights:
+                                            </p>
+                                            
+                                            <ul class="list-icon">
+                                                <li>
+                                                    <span class="icon background-transparent">
+                                                    <i class="fa-solid fa-check"></i>
+                                                    </span> The right to access, update or to delete the information we have on you.
+                                                </li>
+
+                                                <li>
+                                                    <span class="icon background-transparent">
+                                                    <i class="fa-solid fa-check"></i>
+                                                    </span> The right of rectification.
+                                                </li>
+
+                                                <li>
+                                                    <span class="icon background-transparent">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span> The right to object.
+                                                </li>
+
+                                                <li>
+                                                    <span class="icon background-transparent">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span> The right of restriction.
+                                                </li>
+
+                                                <li>
+                                                    <span class="icon background-transparent">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span> The right to data portability
+                                                </li>
+
+                                                <li>
+                                                    <span class="icon background-transparent">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span> The right to withdraw consent
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    
+                                        
+                                        <div>
+                                            <h3 class="footer-title">Log Files</h3>
+                                            <p class="footer-text">
+                                                lodgereviews88.com follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.
+                                            </p>
+                                        </div>	
+                                        
+                                        
+                                        <div>
+                                            <h3 class="footer-title">Cookies and Web Beacons</h3>
+                                            <p class="footer-text">
+                                                Like any other website, lodgereviews88.com uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
+                                            </p>
+                                        </div>		
+                                        
+                                        
+                                        <div>
+                                            <h3 class="footer-title">Privacy Policies</h3>
+                                            <p class="footer-text">
+                                                You may consult this list to find the Privacy Policy for each of the advertising partners of lodgereviews88.com.
+                                                <br>
+                                                Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on lodgereviews88.com, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
+                                                <br>
+                                                Note that lodgereviews88.com has no access to or control over these cookies that are used by third-party advertisers.
+                                            </p>
+                                        </div>		
+                                        
+                                        
+                                        <div>
+                                            <h3 class="footer-title">Third Party Privacy Policies</h3>
+                                            <p class="footer-text">
+                                                lodgereviews88.com Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
+                                                <br><br>
+                                                You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.
+                                                
+                                            </p>
+                                        </div>		
+                                        
+                                        
+                                        <div>
+                                            <h3 class="footer-title">Children's Information</h3>
+                                            <p class="footer-text">
+                                                Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.
+                                                <br><br>
+                                                lodgereviews88.com does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
+                                            </p>
+                                        </div>		
+                                        
+                                        
+                                        <div>
+                                            <h3 class="footer-title">Online Privacy Policy Only</h3>
+                                            <p class="footer-text">
+                                                Our Privacy Policy created at GDPRPrivacyPolicy.net) applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in lodgereviews88.com. This policy is not applicable to any information collected offline or via channels other than this website.
+                                            </p>
+                                        </div>		
+                                        
+                                        
+                                        <div>
+                                            <h3 class="footer-title">Consent</h3>
+                                            <p class="footer-text">
+                                                By using our website, you hereby consent to our Privacy Policy and agree to its terms.
+                                            </p>
+                                        </div>	
+                                        
+                                        
+                                    </div>
+                
+                                    <!-- === Modal Footer === -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div  class="footer-policy">
+                        <!-- ======== Modal PopUp ======= -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg  modal-sm">
+                                <div class="modal-content">
+                                
+                                    <!-- == Modal Header == -->
+                                    <div class="modal-header">
+                                        <h2 class="modal-title" id="exampleModalLabel">Terms of Service</h2>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                        
+                                    <div class="modal-body">
+                                        <h3 class="footer-title">Website Terms and Conditions of Use</h3><br>
+                                        
+                                        <div>
+                                            <h3 class="footer-title">1. Terms</h3>
+                                            <p class="footer-text">
+                                                By accessing this Website, accessible from lodgereviews88.com, you are agreeing to be bound by these Website Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trade mark law.
+                                            </p>
+                                        </div>
+                                        
+                                        
+                                        <div>
+                                            <h3 class="footer-title">2. Use License</h3>
+                                            <p class="footer-text">
+                                                Permission is granted to temporarily download one copy of the materials on lodgereviews88.com's Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
+                                                <br><br>
+                                            </p>
+                                            
+                                            
+                                            <ul class="list-icon">
+                                            
+                                                <li>
+                                                    <span class="icon background-transparent">
+                                                    <i class="fa-solid fa-check"></i>
+                                                    </span> modify or copy the materials;
+                                                </li>
+
+                                                <li>
+                                                    <span class="icon background-transparent">
+                                                    <i class="fa-solid fa-check"></i>
+                                                    </span> use the materials for any commercial purpose or for any public display;
+                                                </li>
+
+                                                <li>
+                                                    <span class="icon background-transparent">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span> attempt to reverse engineer any software contained on lodgereviews88.com's Website;
+
+                                                </li>
+
+                                                <li>
+                                                    <span class="icon background-transparent">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span> remove any copyright or other proprietary notations from the materials; or
+                                                </li>
+
+                                                <li>
+                                                    <span class="icon background-transparent">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span> transferring the materials to another person or "mirror" the materials on any other server.
+                                                </li>
+                                            </ul><br>
+                                            
+                                            
+                                            <p class="footer-text">
+                                                This will let lodgereviews88.com to terminate upon violations of any of these restrictions. Upon termination, your viewing right will also be terminated and you should destroy any downloaded materials in your possession whether it is printed or electronic format.
+                                                
+                                            </p>
+                                        </div>
+                                        
+                                        
+                                        <div>
+                                            <h3 class="footer-title">3. Disclaimer</h3>
+                                            <p class="footer-text">
+                                                All the materials on lodgereviews88.com's Website are provided "as is". lodgereviews88.com makes no warranties, may it be expressed or implied, therefore negates all other warranties. Furthermore, lodgereviews88.com does not make any representations concerning the accuracy or reliability of the use of the materials on its Website or otherwise relating to such materials or any sites linked to this Website.
+                                            </p>
+                                        </div>	
+                                        
+                                        
+                                        <div>
+                                            <h3 class="footer-title">4. Limitations</h3>
+                                            <p class="footer-text">
+                                                lodgereviews88.com or its suppliers will not be hold accountable for any damages that will arise with the use or inability to use the materials on lodgereviews88.com’s Website, even if lodgereviews88.com or an authorize representative of this Website has been notified, orally or written, of the possibility of such damage. Some jurisdiction does not allow limitations on implied warranties or limitations of liability for incidental damages, these limitations may not apply to you.
+                                            </p>
+                                        </div>		
+                                        
+                                        
+                                        <div>
+                                            <h3 class="footer-title">5. Revisions and Errata</h3>
+                                            <p class="footer-text">
+                                                The materials appearing on lodgereviews88.com’s Website may include technical, typographical, or photographic errors. lodgereviews88.com will not promise that any of the materials in this Website are accurate, complete, or current. lodgereviews88.com may change the materials contained on its Website at any time without notice. lodgereviews88.com does not make any commitment to update the materials.
+                                            </p>
+                                        </div>		
+                                        
+                                        
+                                        <div>
+                                            <h3 class="footer-title">6. Links</h3>
+                                            <p class="footer-text">
+                                                lodgereviews88.com has not reviewed all of the sites linked to its Website and is not responsible for the contents of any such linked site. The presence of any link does not imply endorsement by lodgereviews88.com of the site. The use of any linked website is at the user’s own risk.
+                                                
+                                            </p>
+                                        </div>		
+                                        
+                                        
+                                        <div>
+                                            <h3 class="footer-title">7. Site Terms of Use Modifications</h3>
+                                            <p class="footer-text">
+                                                lodgereviews88.com may revise these Terms of Use for its Website at any time without prior notice. By using this Website, you are agreeing to be bound by the current version of these Terms and Conditions of Use.
+                                            </p>
+                                        </div>		
+                                        
+                                        
+                                        <div>
+                                            <h3 class="footer-title">8. Your Privacy</h3>
+                                            <p class="footer-text">
+                                                Please read our Privacy Policy.
+                                            </p>
+                                        </div>		
+                                        
+                                        
+                                        <div>
+                                            <h3 class="footer-title">9. Governing Law</h3>
+                                            <p class="footer-text">
+                                                Any claim related to lodgereviews88.com's Website shall be governed by the laws of ar without regards to its conflict of law provisions.
+                                            </p>
+                                        </div>	
+                                        
+                                    </div>
+                                    
+                                    <!-- == Modal Footer == -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+        </section>
+        <!-- =========== Footer Section End =========== -->
+
+
+
+
+        <!-- ========================== script Link =================== -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/jquery-3.5.1.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/wow.min.js"></script>
+
+        
+        <script>
+            // Animate CSS
+            var wow = new WOW({
+                boxClass: 'wow', 
+                animateClass: 'animated', 
+                offset: 0, 
+                mobile: true, 
+                live: true, 
+                callback: function(box) {
+                    
+                },
+                scrollContainer: null 
+            });
+            wow.init();
+        </script>
+
+                
+        <script>
+            // Initialize Owl Carousel
+            $(document).ready(function() {
+                var owl = $("#news-slider-01");
+
+                owl.owlCarousel({
+                    items: 2,
+                    itemsDesktop: [1199, 2],
+                    itemsDesktopSmall: [968, 2],
+                    itemsTabletSmall: [768, 1],
+                    itemsMobile: [600, 1],
+                    navigation: true,
+                    navigationText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
+                    pagination: false,
+                    autoPlay: false,
+                });
+            });
+        </script>
+
+
+        <script>
+            // Function to open the popup (Submit Popup)
+            function openPopup() {
+                document.getElementById('confirmationPopup').style.display = 'block';
+            }
+
+            // Function to close the popup
+            function closePopup() {
+                document.getElementById('confirmationPopup').style.display = 'none';
+            }
+
+            // Attach an event listener to the form
+            document.getElementById('myForm').addEventListener('submit', function (event) {
+                // Prevent the default form submission
+                event.preventDefault();
+
+                // Perform your form submission logic here
+
+                // Open the popup after form submission
+                openPopup();
+            });
+        </script>
+
+
+
+        <script>
+            // Subscribe popup
+            const button = document.getElementById('myButton');
+            const message = document.getElementById('message');
+            const closeBtn = document.getElementById('close');
+
+                    button.addEventListener('click', function() {
+                    message.style.display = 'block'; // Display the message
+                });
+
+                closeBtn.addEventListener('click', function() {
+                message.style.display = 'none'; // Hide the message when close button is clicked
+            });
+        </script>
+
+
+        <script>
+            // Counting Js
+            let count = document.querySelectorAll(".count");
+            let arr = Array.from(count);
+            let countingStarted = false;
+
+            // Function to check if an element is in the viewport
+            function isInViewport(element) {
+                const rect = element.getBoundingClientRect();
+                return (
+                    rect.top >= 0 &&
+                    rect.left >= 0 &&
+                    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+                );
+            }
+
+            // Function to start counting
+            function startCounting() {
+                arr.forEach(function(item) {
+                    let startnumber = parseInt(item.innerHTML) || 0; // Get current count or start from 0
+
+                    function counterup() {
+                        startnumber++;
+                        item.innerHTML = startnumber;
+
+                        if (startnumber == item.dataset.number) {
+                            clearInterval(stop);
+                        }
+                    }
+
+                    let stop = setInterval(function() {
+                        counterup();
+                    }, 30); // Decreased interval duration to speed up counting
+                });
+
+                // Set countingStarted to true
+                countingStarted = true;
+            }
+
+            // Add scroll event listener to start counting when element is in viewport
+            window.addEventListener('scroll', function() {
+                if (!countingStarted && isInViewport(document.getElementById('counter'))) {
+                    startCounting();
+                }
+            });
+
+            // Check if page is refreshed and reset countingStarted accordingly
+            window.addEventListener('beforeunload', function() {
+                countingStarted = false;
+            });
+        </script>
+
+    
+        <script>
+            // Slider Owl Carousel
+            jQuery(document).ready(function($) {
+                $('.slider.owl-carousel').owlCarousel({
+                    loop: true,
+                    margin: 30,
+                    nav: true,
+                    dots: false,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        768: {
+                            items: 2
+                        },
+                        992: {
+                            items: 2
+                        }
+                    }
+                });
+            });
+        </script>
+
+
+        <script>
+            // Smooth Scroll For Full Page
+            function smoothScroll(targetId) {
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    const offsetTop = targetElement.offsetTop;
+
+                    // Smooth scrolling animation
+                    window.scrollTo({
+                    top: offsetTop,
+                    behavior: 'smooth'
+                    });
+                } 
+                else {
+                    console.error(`Element with id ${targetId} not found.`);
+                }
+            }
+        </script>
+    </main>
+</html>    
